@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spot"
+    android:background = "@drawable/ocean"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/spot96"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot95"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot91"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot97"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot99"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot98"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot94"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot92"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot100"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot93"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot86"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot85"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot81"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot87"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot89"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot88"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot84"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot82"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot90"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot83"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot76"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot75"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot71"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot77"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot79"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot78"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot74"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot72"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot80"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot73"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot65"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot63"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot61"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot62"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot70"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot64"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot69"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot66"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot67"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot68"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot35"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot43"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot41"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot42"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot44"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot55"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot60"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot54"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot59"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot56"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot57"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot58"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot33"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot31"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot32"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot40"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot34"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot39"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot36"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot38"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot24"
+        app:layout_constraintTop_toBottomOf="@+id/spot15"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot22"
+        app:layout_constraintTop_toBottomOf="@+id/spot13"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot27"
+        app:layout_constraintTop_toBottomOf="@+id/spot18"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot21"
+        app:layout_constraintTop_toBottomOf="@+id/spot12"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot11"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot30"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot29"
+        app:layout_constraintTop_toBottomOf="@+id/spot20"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot23"
+        app:layout_constraintTop_toBottomOf="@+id/spot14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot29"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot28"
+        app:layout_constraintTop_toBottomOf="@+id/spot19"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot27"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot26"
+        app:layout_constraintTop_toBottomOf="@+id/spot17"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot26"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot25"
+        app:layout_constraintTop_toBottomOf="@+id/spot16"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot14"
+        app:layout_constraintTop_toBottomOf="@+id/spot5"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot19"
+        app:layout_constraintTop_toBottomOf="@+id/spot10"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot18"
+        app:layout_constraintTop_toBottomOf="@+id/spot9"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot15"
+        app:layout_constraintTop_toBottomOf="@+id/spot6"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot3"
+        app:layout_constraintTop_toBottomOf="@+id/spot4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot16"
+        app:layout_constraintTop_toBottomOf="@+id/spot7"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot17"
+        app:layout_constraintTop_toBottomOf="@+id/spot8"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot2"
+        app:layout_constraintTop_toBottomOf="@+id/spot3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/spot1"
+        app:layout_constraintTop_toBottomOf="@+id/spot2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot9"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot8"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot6"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot7"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="316dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="408dp"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="40dp"
+        android:text="-----"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:text="Accuracy"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <TextView
+        android:id="@+id/txtAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="40dp"
+        android:text="-----"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toEndOf="@+id/txtHit"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtHit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="40dp"
+        android:text="-----"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toEndOf="@+id/txtTaken"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="Number of Hits"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:text="Shots Taken"
+        android:textColor="#B5060C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <ImageButton
+        android:id="@+id/spot1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/spot2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/spot1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="12dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:backgroundTint="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:text="instructions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spot92" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
