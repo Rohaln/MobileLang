@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music">
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="373dp"
+        android:layout_height="482dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="204dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cometogether"
+        android:layout_marginLeft="20dp" />
+
+    <Spinner
+        android:layout_height="42dp"
+        android:layout_width="142dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/spArtist"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#C53131"
+        android:minHeight="48dp"
+        android:foregroundGravity="left"
+        android:contentDescription="Choose an Artist"
+        android:backgroundTint="#C53131"
+        android:layout_marginEnd="8dp" />
+
+    <Spinner
+        android:layout_height="42dp"
+        android:layout_width="142dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/spSong"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#C53131"
+        android:minHeight="48dp"
+        android:contentDescription="Choose a Painting"
+        android:backgroundTint="#C53131"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/spArtist"
+        app:layout_constraintHorizontal_bias="0.498" />
+
+    <TextView
+        android:layout_height="42dp"
+        android:layout_width="142dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/textView2"
+        android:textColor="#C53131"
+        android:text="Select Artist"
+        android:textSize="22dp"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:layout_height="42dp"
+        android:layout_width="142dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="96dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/textView3"
+        android:textColor="#C53131"
+        android:text="Select Song"
+        android:textSize="22dp"
+        android:layout_marginLeft="8dp" />
+
+    <ImageButton
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:srcCompat="@drawable/play"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="172dp"
+        android:id="@+id/btnPlay"
+        android:layout_marginLeft="172dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Checker">
+
+
+    <ImageView
+        android:id="@+id/ivBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/check"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/bungee_inline"
+        android:text="@string/start_game"
+        android:textColor="@color/darkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/start_game" />
+
+    <EditText
+        android:id="@+id/editTextPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/neonGreen"
+        android:ems="10"
+        android:fontFamily="@font/bungee_inline"
+        android:hint="@string/player1"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPlayer2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivBackGround"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <EditText
+        android:id="@+id/editTextPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/neonGreen"
+        android:ems="10"
+        android:fontFamily="@font/bungee_inline"
+        android:hint="@string/player2"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStartGame"
+        app:layout_constraintStart_toStartOf="@+id/ivBackGround" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
